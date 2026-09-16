@@ -1,0 +1,162 @@
+/* =====================================================================
+   МЕДИАХОЛДИНГ "ЛАДОМИР" — СТИЛИ PREMIUM IT-DARK (UI-UX-PRO-MAX)
+   ===================================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #12161a; /* Глубокий угольно-графитовый фон */
+    color: #e9ecef; /* Хрустально-белый контрастный текст */
+    padding-bottom: 80px; /* Зазор под мобильную нижнюю панель */
+}
+
+header {
+    background: linear-gradient(145deg, #161b22, #0d1117);
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 2px solid #00ff88; /* Наша неоново-изумрудная линия */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: #00ff88;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #8b949e;
+    margin-top: 10px;
+}
+
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* ОБЩАЯ СТРУКТУРА КАРТОЧЕК */
+.card {
+    background-color: #1c2128;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+    border: 1px solid #30363d;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #c9d1d9;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: 700;
+    color: #00ff88;
+    margin-bottom: 16px;
+}
+
+/* КНОПКИ УПРАВЛЕНИЯ */
+.btn {
+    width: 100%;
+    padding: 14px;
+    border-radius: 12px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-trigger {
+    background-color: #00ff88;
+    color: #0d1117;
+}
+
+.link-git {
+    display: block;
+    text-align: center;
+    color: #58a6ff;
+    font-size: 13px;
+    margin-top: 14px;
+    text-decoration: none;
+}
+
+/* 🍰 НАШ ВАНИЛЬНО-РОЗОВЫЙ КОНДИТЕРСКИЙ ШЕДЕВР */
+.cake-card {
+    background: linear-gradient(135deg, #fff0f5, #ffe4e1); /* Зефирно-ванильный глянец */
+    border: 2px solid #ffb6c1;
+    color: #4a3b32; /* Богатый шоколадный цвет текста */
+}
+
+.cake-card p {
+    color: #614e43;
+}
+
+.cake-card .price {
+    color: #ff69b4; /* Розовый неоновый ценник */
+}
+
+.btn-cake {
+    background-color: #ff69b4;
+    color: #ffffff;
+}
+
+/* ФУТУРИСТИЧЕСКИЙ БЛОК */
+.future-card {
+    border-left: 4px dashed #58a6ff;
+}
+
+.badge {
+    display: inline-block;
+    background-color: rgba(88,166,255,0.15);
+    color: #58a6ff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* ЛЕТАЮЩАЯ МОБИЛЬНАЯ НИЖНЯЯ ПАНЕЛЬ */
+.mobile-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+    background-color: #161b22;
+    border-top: 1px solid #30363d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 999;
+}
+
+.nav-item {
+    font-size: 12px;
+    color: #8b949e;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+}
+
+.nav-item.active {
+    color: #00ff88;
+}
